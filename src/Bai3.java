@@ -14,7 +14,7 @@ public class Bai3 {
         int dem = 1;
 
         for (int i = 1; i < n; i++) {
-            if (a[i] > a[i-1]) {
+            if (a[i] >= a[i-1]) {
                 dem += 1;
             } else {
                 ans = Math.max(dem, ans);
